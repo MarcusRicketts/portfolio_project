@@ -1,0 +1,171 @@
+body,
+html {
+  background-color: #00ffff;
+  height: 100%;
+}
+
+.cool-bg {
+  bottom: 0;
+  left: 0px;
+  border-radius: 150px;
+  border-width: 0px;
+  padding: 0%;
+}
+.light-pink-shadow,
+.star1,
+.star3-ft,
+.star4-ft {
+  animation: mymove 2s alternate-reverse infinite linear;
+}
+.blue-moon-glow,
+.pink-shadow,
+.blue-shadow,
+.star3-shadow,
+.star4-shadow,
+.star5 {
+  animation: mymove2 2s alternate-reverse infinite linear;
+}
+.moon-left-eye,
+.moon-right-eye,
+.moon-mouth,
+.star6,
+.star2-ft,
+.star6-1,
+.column,
+.photo,
+.pink-moon-glow {
+  animation: mymove3 2s alternate-reverse infinite linear;
+}
+.right-moon-pupil,
+.left-moon-pupil,
+.star2-shadow,
+.mdrDev-logo {
+  animation: mymove4 2s alternate-reverse infinite linear;
+}
+.project-logo {
+  animation: mymove5 2s alternate-reverse infinite linear;
+}
+.about-logo,
+.contact-me-logo {
+  animation: mymove6 2s alternate-reverse infinite linear;
+}
+@keyframes mymove6 {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100px);
+  }
+}
+@keyframes mymove5 {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100px);
+  }
+}
+
+@keyframes mymove4 {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-20px);
+  }
+}
+@keyframes mymove3 {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(20px);
+  }
+}
+@keyframes mymove2 {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(20px);
+  }
+}
+
+@keyframes mymove {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-20px);
+  }
+}
+.about-logo,
+.project-logo,
+.contact-me-logo {
+  margin-top: 50px;
+  border-radius: 200px;
+  height: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+.about-container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  height: 500px;
+}
+
+.about-container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: black;
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+.content {
+  border-radius: 100px;
+}
+.write-up {
+  font-size: 25px;
+}
+.photo {
+  margin-top: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: 500px;
+  border-radius: 150px;
+}
+
+.column {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  float: left;
+  width: 33.3%;
+  padding: 0px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.email-me-logo {
+  margin-top: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+.mdrDev-logo {
+  margin-top: 100px;
+  margin-left: 35px;
+  position: absolute;
+}
+.spacer {
+  height: 200px;
+}
